@@ -128,3 +128,18 @@ class Person:
 
 person1 = Person("Kael", 22)
 person1.say_hello()
+
+
+# 13. String Methods & Manipulation
+
+text = " Hello World! "
+print(text.lower())
+print(text.strip())
+print(text.replace("World", "Kael"))
+print("Kael" in text)
+
+# 14. List Comprehensions
+
+for x in range(0, 6):
+    print(f"{x} squared is {x**2}")
+
