@@ -143,3 +143,4 @@ print("Kael" in text)
 for x in range(0, 6):
     print(f"{x} squared is {x**2}")
 
+print("Hello its my practice file (python)")
